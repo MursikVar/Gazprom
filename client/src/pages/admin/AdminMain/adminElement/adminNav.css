@@ -1,0 +1,40 @@
+.adminNav{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #FFF;
+    margin: 0  200px;
+
+}
+
+.adminNav__title{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 44px;
+}
+
+.adminNav__title h2{
+    margin-right: 30px;
+}
+
+.adminNav__spinner{
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group{
+    margin-bottom: 0;
+}
+
+.searchAdmin{
+    margin-bottom: 0;
+}
+
+.searchAll{
+    margin-bottom: 0;
+    margin-left: 10px;
+    width: 30%;
+}

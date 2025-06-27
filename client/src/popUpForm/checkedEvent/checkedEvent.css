@@ -1,0 +1,27 @@
+.custom-modal .modal-content {
+  border-radius: 25px;
+  width: 550px;
+
+}
+
+.text{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-fs15{
+  padding: 5px 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.text-fs16{
+  padding: 5px 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+

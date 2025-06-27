@@ -1,0 +1,50 @@
+/* Стили для кнопки вызова модалки */
+.add-employee-btn {
+    background-color: #0984e3;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .add-employee-btn:hover {
+    background-color: #0873c4;
+    transform: translateY(-1px);
+  }
+  
+  /* Кастомизация заголовка */
+  .modal-header-custom {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+  }
+  
+  .modal-header-custom .modal-title {
+    font-weight: 600;
+    color: #2d3436;
+  }
+  
+  /* Стили для полей ввода */
+  .form-control {
+    border-radius: 6px;
+    border: 1px solid #dfe6e9;
+    padding: 10px 14px;
+  }
+  
+  .form-control:focus {
+    border-color: #0984e3;
+    box-shadow: 0 0 0 2px rgba(9, 132, 227, 0.1);
+  }
+  
+  /* Стили для футера */
+  .modal-footer-custom {
+    border-top: 2px solid #e9ecef;
+    padding: 16px 24px;
+  }
+  
+  /* Адаптация для мобильных устройств */
+  @media (max-width: 576px) {
+    .modal-content {
+      margin: 10px;
+    }
+  }

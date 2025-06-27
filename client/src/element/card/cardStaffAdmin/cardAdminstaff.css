@@ -1,0 +1,54 @@
+
+.cardStaff__wrapper{
+    max-width: 1440px;
+}
+.cardStaff__items {
+    position: relative;
+    background-color: #FFF;
+    width: 100vh;
+    border-radius: 30px;
+    display: flex;
+    margin: 0 150px;
+    margin-bottom: 30px;
+}
+
+.cardStaff__items img {
+    margin-right: 60px;
+    height: 200px;
+    width: 180px;
+}
+
+.cardStaffAdmin__content {
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.cardStaffAdmin__content-name {
+    color: #1E1E1E;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 34px; */
+}
+
+.cardStaffAdmin__content-all {
+    color: #1E1E1E;
+    font-family: "Montserrat Alternates";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.cardStaff__inter{
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.cardStaff__inter li{
+    background-color: #D9D9D9;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
